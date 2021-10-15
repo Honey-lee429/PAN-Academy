@@ -1,0 +1,30 @@
+create database if not exists db_aula1;
+
+use db_aula1;
+
+create table tb_pessoas (
+	id int primary key,
+	nome varchar(100),
+	genero enum('f','m'),
+	dia_nasc date,
+	fumante boolean,
+	foto blob
+)ENGINE=innoDB;
+
+show tables;
+select * from information_schema;
+
+insert into tb_pessoas (id, nome) values (1, 'hanna');
+insert into tb_pessoas (id, nome) values (2, 'mari');
+
+select * from tb_pessoas;
+
+begin;
+insert into tb_pessoas (id, nome) values (4, 'julia');
+select * from tb_pessoas;
+rollback;
+select * from tb_pessoas;
+delete from tb_pessoas where id = 1;
+update from tb_pessoas where id = 2;
+
+insert into tb_pessoas (id, nome, foto) values (4, 'julia', '');
