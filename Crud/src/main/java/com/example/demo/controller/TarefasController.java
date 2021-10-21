@@ -26,6 +26,12 @@ public class TarefasController {
 		return tarefasRepository.findAll();
 	}
 	
+	@GetMapping("/listar/tarefa/{tarefa}/id/{id}")
+	public ResponseEntity<List<TarefasModel>> getTarefasAndId(@PathVariable String tarefa, 
+			@PathVariable(value = "id") Long id) {
+		return ResponseEntity.ok(tarefasRepository.findByTarefaAndId(tarefa,id));
+	}
+	
 	
 	@GetMapping("/listar/{id}")
 	public ResponseEntity<TarefasModel> getById(@PathVariable long id) {

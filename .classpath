@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AcessoPublic/src"/>
+	<classpathentry kind="src" path="App.data/aula5-app-spring-datas/.mvn/wrapper"/>
+	<classpathentry kind="src" path="App.data/aula5-app-spring-datas/src/main/java"/>
+	<classpathentry kind="src" path="App.data/aula5-app-spring-datas/src/test/java"/>
+	<classpathentry kind="src" path="Crud/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Crud/src/main/java"/>
+	<classpathentry kind="src" path="Crud/src/test/java"/>
+	<classpathentry kind="src" path="datas/src"/>
+	<classpathentry kind="src" path="ModificadoAcessoPrivate/src"/>
+	<classpathentry kind="src" path="TestandoNaMesmaClasse/src"/>
+	<classpathentry kind="src" path="VendoClassePrivateDeFora/src"/>
+	<classpathentry kind="src" path="VendoMetodoExterno/src"/>
+	<classpathentry kind="src" path="VendoPacoteExterno/src"/>
+	<classpathentry kind="output" path="AcessoPublic/bin"/>
+</classpath>
