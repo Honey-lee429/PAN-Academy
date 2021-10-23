@@ -58,7 +58,15 @@ public class TarefasController {
 		}
 
 	}
-
+	
+	@PutMapping ("/atualizar/tab/{id}")
+	public TarefasModel atualizar(@PathVariable Long id, @RequestBody TarefasModel  model) {
+		model.setId(id);
+		tarefasRepository.save(model);
+		return model;
+	}	
+		
+	
 	@PostMapping("/salvar/tarefas")
 	public ResponseEntity<TarefasModel> post(@RequestBody TarefasModel tarefinha) {
 		return ResponseEntity.status(HttpStatus.CREATED).body(tarefasRepository.save(tarefinha));
