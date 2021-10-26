@@ -1,0 +1,5 @@
+package com.hanna.microtabela.controller;
+
+public class TabelaResource {
+
+}

@@ -1,0 +1,13 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê†ĞH¦7RMINORZ
+CODE_SMELL
+k	java:S106	"9Replace this use of System.out or System.err by a logger.(Î˜ıå8™Ç÷êÊ/H«7RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(şÿ†ö8™Ç÷êÊ/H¬7RMAJORZ
+CODE_SMELL
+ˆ
+java:S1104"PMake raca a static final constant or non-public and provide accessors if needed.(ÉÎñ£øÿÿÿÿ8™Ç÷êÊ/H­7RMINORZ
+CODE_SMELL
+ƒ
+java:S1104"PMake peso a static final constant or non-public and provide accessors if needed.(ÌÓé€8™Ç÷êÊ/H®7RMINORZ
+CODE_SMELL

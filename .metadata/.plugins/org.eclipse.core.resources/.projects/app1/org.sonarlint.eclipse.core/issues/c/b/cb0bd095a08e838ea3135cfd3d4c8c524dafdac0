@@ -1,0 +1,17 @@
+
+‡
+java:S1128"ORemove this unused import 'org.springframework.web.bind.annotation.PutMapping'.(›¥÷ˆûÿÿÿÿ8¾ÛÓÒË/H€=RMINORZ
+CODE_SMELL
+w
+java:S1128"?Remove this unused import 'org.springframework.http.MediaType'.(úŸİ¯şÿÿÿÿ8¾ÛÓÒË/Hú<RMINORZ
+CODE_SMELL
+ˆ
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.(äƒà°ùÿÿÿÿ8¾ÛÓÒË/Hş<RMINORZ
+CODE_SMELL
+ˆ
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½Àıÿÿÿÿ8¾ÛÓÒË/H‚=RMINORZ
+CODE_SMELL
+Š
+java:S1128
+"RRemove this unused import 'org.springframework.web.bind.annotation.DeleteMapping'.(­ìÎªşÿÿÿÿ8¾ÛÓÒË/Hü<RMINORZ
+CODE_SMELL

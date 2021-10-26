@@ -1,0 +1,86 @@
+package com.blog.bloghanna.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.blog.bloghanna.model.Usuario;
+import com.blog.bloghanna.model.UsuarioGrupo;
+import com.blog.bloghanna.model.dtos.UsuarioDtos;
+import com.blog.bloghanna.repository.BlogRepository;
+import com.blog.bloghanna.repository.GrupoRepository;
+
+@Service
+public class UsuarioService {
+	private @Autowired BlogRepository repositoryU;
+	private @Autowired GrupoRepository repositoryG;
+
+	/**
+	 * metodo para cadastrar usuario
+	 * 
+	 * @param novoUsuario do tipo usuario
+	 * @return optional com usuario ou optional empty
+	 * @since 1.0
+	 * @author hanely
+	 */
+	public Optional<?> cadastrarUsuario(Usuario novoUsuario) {
+		return repositoryU.findById(novoUsuario.getId()).map(usuarioExistente -> {
+			return Optional.empty();
+		}).orElseGet(() -> {
+			return Optional.ofNullable(repositoryU.save(novoUsuario));
+		});
+	}
+
+	/**
+	 * Serviço utilizado para atualzar um usuario
+	 * 
+	 * @param idUsuario,tipo        Integer para pesquisar o usuario no banco
+	 * @param usuarioParaAtualizar, tipo UsuarioDto para transferencia de nome e
+	 *                              sobrenome
+	 * @return Optional com entidade de Usuario e Optional empty
+	 * @since 1.0
+	 * @author hanely
+	 */
+	public Optional<Usuario> atualizarUsuario(Integer idUsuario, UsuarioDtos usuarioParaAtualizar) {
+		return repositoryU.findById(idUsuario).map(usuarioExistente -> {
+			usuarioExistente.setSobrenome(usuarioParaAtualizar.getSobrenome());
+			usuarioExistente.setMaiorDeIdade(usuarioParaAtualizar.isMaiorDeIdade());
+			return Optional.ofNullable(repositoryU.save(usuarioExistente));
+		}).orElseGet(() -> {
+			return Optional.empty();
+		});
+	}
+
+	/**
+	 * serviço utilizado para criar grupo de usuario
+	 * 
+	 * @param id              da classe Usuario, tipo Integer para pesquisar o
+	 *                        usuario no banco
+	 * @param grupoParaCriar, tipo Grupo para criação
+	 * @return entidade grupo criado
+	 */
+
+	public Optional<UsuarioGrupo> criarGrupo(Integer id, UsuarioGrupo grupoParaCriar) {
+		return repositoryU.findById(id).map(usuarioExiste -> {
+			grupoParaCriar.setCriador(usuarioExiste);
+			return Optional.ofNullable(repositoryG.save(grupoParaCriar));
+		}).orElseGet(() -> {
+			return Optional.empty();
+		});
+	}
+	
+	public Optional<Usuario> inscreverNoGrupo(Integer id, Long idGrupo) {
+		Optional<UsuarioGrupo> grupoExistente = repositoryG.findById(idGrupo);
+		if(grupoExistente.isPresent()) {
+			return repositoryU.findById(id).map(usuarioExistente -> {
+				usuarioExistente.getGrupoInscrito().add(usuarioExistente.getId());
+				return Optional.ofNullable(repositoryU.save(usuarioExistente));
+			}).orElseGet(() -> {
+				return Optional.empty();
+			});
+		} else {
+			return Optional.empty();
+		}
+	}
+}

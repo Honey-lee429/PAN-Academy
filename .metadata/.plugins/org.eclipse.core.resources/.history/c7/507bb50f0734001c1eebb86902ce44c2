@@ -1,0 +1,20 @@
+package Animal;
+
+public class Programa {
+public static void main(String[] args) {
+	Gato gato = new Gato();
+	gato.dormir();
+	gato.peso = 7d;
+	gato.raca = "siames";
+	System.out.println("----Sobre o gato----------------");
+	System.out.println(gato.peso);
+	
+	
+	Cachorro cachorro = new Cachorro();
+	cachorro.dormir();
+	cachorro.setPeso(12);
+	cachorro.raca = "labrador";
+	System.out.println("---------sobre o cachorro-------");
+	System.out.println(cachorro.peso);
+}
+}	

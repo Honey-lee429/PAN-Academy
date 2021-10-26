@@ -1,0 +1,7 @@
+
+u
+java:S2259#"DA "NullPointerException" could be thrown; "tabela" is nullable here.(¬ìá®øÿÿÿÿ8Ú÷òÊ/Hâ:RMAJORZBUG
+p	java:S106"9Replace this use of System.out or System.err by a logger.(í‹ˆøÿÿÿÿ8¸ÁõÊ/H‹;RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(º·8¸ÁõÊ/HŒ;RMAJORZ
+CODE_SMELL

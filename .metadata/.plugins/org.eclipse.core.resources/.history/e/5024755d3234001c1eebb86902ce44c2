@@ -1,0 +1,9 @@
+package com.hanna.microcalculadora.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.hanna.microcalculadora.model.Calculadora;
+
+public interface CalculadoraRepository extends JpaRepository<Calculadora, Long>{
+
+}

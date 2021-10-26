@@ -1,0 +1,5 @@
+package com.hanna.microcalculadora.resources;
+
+public class CalculadoraResource {
+
+}

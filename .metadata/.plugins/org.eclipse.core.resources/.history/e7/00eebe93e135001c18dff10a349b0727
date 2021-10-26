@@ -1,0 +1,14 @@
+package RevisaoPoli;
+
+public class Programa {
+	public void fazerAnimalComer( Animal nimal) {
+		animal.comer();
+	}
+	
+    public static void main(String[] args) {
+		Programa t = new Programa() {
+			t.fazerAnimalComer( new Animal());
+			
+		}
+	}
+}

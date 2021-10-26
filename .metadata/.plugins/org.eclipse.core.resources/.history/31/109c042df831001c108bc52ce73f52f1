@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+public class Arrayfor {
+
+	public static void main(String[] args) {
+			ArrayList<String> pessoas = new ArrayList<>();
+			pessoas.add("luiza");
+			pessoas.add("gabriela");
+			pessoas.add("arcio");
+			System.out.println("---------Todas pessoas----------");
+			for (String gente : pessoas) {
+				System.out.printf("posição %s\n", gente);
+			}
+			
+			
+			System.out.println("\n-------começa com L---------");
+			for (String g : pessoas) {
+				if (g.charAt(0) == 'L'){
+					System.out.printf("Posição %s\n", g);
+				}
+			}
+			
+			System.out.println("\n-------Pesosas e indices----------");
+			System.out.println("Indo de um por um");
+			int i = 0;
+			for (String string : pessoas) {
+				System.out.printf("posiçõa %d- %s%n", i, string);
+				i++;
+			}
+			
+	}
+}

@@ -1,0 +1,13 @@
+
+public class Programa {
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno();
+		Professor prof = new Professor();
+		
+		aluno.setNome("Nome do aluno é carlos");
+		aluno.setCurso("portugues");
+		System.out.println(aluno.getCurso());
+		System.out.println(aluno.getNome());
+		prof.setSalario(1000d);
+	}
+}

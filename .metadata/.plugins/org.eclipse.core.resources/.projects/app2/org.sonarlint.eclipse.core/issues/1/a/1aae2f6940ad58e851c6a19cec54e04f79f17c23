@@ -1,0 +1,13 @@
+
+•	java:S116"^Rename this field "URI_SUBSTITUIDA_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô‰Î»úÿÿÿÿ8ŒØÙÑË/HÂ<RMINORZ
+CODE_SMELL
+“	java:S116"aRename this field "URI_SUBSTITUIDA_ALL_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‹ä­8ŒØÙÑË/HÃ<RMINORZ
+CODE_SMELL
+Y
+java:S1170"!Make this final field static too.(ô‰Î»úÿÿÿÿ8ŒØÙÑË/HÄ<RMINORZ
+CODE_SMELL
+T
+java:S1170"!Make this final field static too.(…‹ä­8ŒØÙÑË/HÅ<RMINORZ
+CODE_SMELL
+…	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÔÀÄúÿÿÿÿ8ŒØÙÑË/HÆ<RMINORZ
+CODE_SMELL

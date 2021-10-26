@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\hanel\OneDrive\Documentos\Programação\Gama\InputOutput\src"/>
+			<item value="C:\Users\hanel\OneDrive\Documentos\Programação\Gama\crud-service"/>
+			<item value="C:\Users\hanel\OneDrive\Documentos\Programação\Gama\Crud"/>
+			<item value="C:\Users\hanel\OneDrive\Documentos\Programação\Gama\Nova pasta\crud"/>
+			<item value="C:\Users\hanel\OneDrive\Documentos\Programação\Gama\App.data\aula5-app-spring-datas"/>
+			<item value="C:\Users\hanel\eclipse-workspace\App.datas"/>
+			<item value="C:\Users\hanel\eclipse-workspace\datas"/>
+			<item value="C:\Users\hanel\OneDrive\Documentos\Programação\mercafacil\mercafacil"/>
+			<item value="C:\Users\hanel\OneDrive\Área de Trabalho\Projeto Sucateria\Sucateria\project_gen_ods12\ecommerce"/>
+			<item value="C:\Users\hanel\OneDrive\Área de Trabalho\Projeto Sucateria"/>
+			<item value="C:\Users\hanel\OneDrive\Área de Trabalho\Projeto Sucateria\project_gen_ods12"/>
+			<item value="C:\Users\hanel\OneDrive\Área de Trabalho\project_gen_ods12-hotfix\project_gen_ods12"/>
+			<item value="C:\Users\hanel\OneDrive\Área de Trabalho\project_gen_ods12-hotfix\project_gen_ods12\ecommerce"/>
+			<item value="C:\Users\hanel\eclipse-workspace\sintaxe-variaveis-e-fluxo"/>
+			<item value="C:\Users\hanel\OneDrive\Documentos\Programação\generation-brasil\projeto_integrador\sucateriaProjeto"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\hanel\OneDrive\Documentos\Programação\Gama\crud-service\src\main\java\com\crud\ProdutoServiceImpl.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="jUnit"/>
+		</list>
+		<list key="name">
+			<item value="jUnitProject"/>
+		</list>
+		<list key="artifactId">
+			<item value="jUnitProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

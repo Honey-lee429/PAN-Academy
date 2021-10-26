@@ -1,0 +1,3 @@
+INSERT INTO tb_tabelinha (pessoa, preco) VAUES ('luiza', 20.0);
+INSERT INTO tb_tabelinha (pessoa, preco) VAUES ('maria', 220.0);
+INSERT INTO tb_tabelinha (pessoa, preco) VAUES ('pamela', 120.0);

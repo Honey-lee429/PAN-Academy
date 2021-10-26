@@ -1,0 +1,8 @@
+package jUnitProject;
+
+public class FirstTest {
+	@Test
+	public void firstMethod() { 
+		
+	}
+}

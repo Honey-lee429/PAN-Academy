@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Methods&apos;&#x0D;&#x0A;- Original project: &apos;Methods&apos;&#x0D;&#x0A;- Original element: &apos;Methods/src/com.unicas.funcoes.metodos.sem.retorno&apos;" description="Delete element" element1="/src&lt;com.unicas.funcoes.metodos.sem.retorno" element2="/src&lt;com.unicas.funcoes.metodos.sem" element3="/src&lt;com.unicas.funcoes.metodos" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1633787706118" subPackages="false" version="1.0"/>
+</session>

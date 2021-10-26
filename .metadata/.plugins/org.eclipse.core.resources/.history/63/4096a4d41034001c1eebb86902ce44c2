@@ -1,0 +1,11 @@
+import javax.swing.JOptionPane;
+
+public class Livro extends Exercicio {
+	public void exibirDados() {
+		this.setCodigo(Integer.parseInt(JOptionPane.showInputDialog("digite o código do livro")));
+		this.setDescricao(JOptionPane.showInputDialog("descriçõa"));
+		this.setPreco(Double.parseDouble(JOptionPane.showInputDialog("valor")));
+		
+		JOptionPane.showMessageDialog(null, getCodigo() + getDescricao()+ getPreco());
+	}
+}

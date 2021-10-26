@@ -1,0 +1,5 @@
+package com.hanna.microcalculadora.repository;
+
+public interface CalculadoraRepository {
+
+}

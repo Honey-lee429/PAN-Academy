@@ -1,0 +1,17 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ûŸ¢«úÿÿÿÿ8Éé½ÔÊ/HÈ6RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(Õƒã*8Éé½ÔÊ/HÅ6RMAJORZ
+CODE_SMELL
+h
+java:S2209"5Change this instance-reference to a static reference.(ï£Û™8Éé½ÔÊ/HÆ6RMAJORZ
+CODE_SMELL
+u
+java:S2479":Remove the non-escaped \u0009 character from this literal.(•éŸ…øÿÿÿÿ8– õÔÊ/Hã6RCRITICALZ
+CODE_SMELL
+p	java:S106	"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8Œâ›ÔÊ/HÁ6RMAJORZ
+CODE_SMELL
+n	java:S125 "<This block of commented-out lines of code should be removed.(‚ð¦©8ÄëíÔÊ/HÞ6RMAJORZ
+CODE_SMELL
+k	java:S106#"9Replace this use of System.out or System.err by a logger.(³ª«Ä8çÅêÔÊ/H×6RMAJORZ
+CODE_SMELL

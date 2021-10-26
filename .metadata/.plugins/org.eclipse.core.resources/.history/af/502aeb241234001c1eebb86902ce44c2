@@ -1,0 +1,14 @@
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
+import javax.swing.JOptionPane;
+
+public class Livro extends Exercicio {
+	public void exibirDados() {
+		this.setCodigo(Integer.parseInt(JOptionPane.showInputDialog("digite o código do livro")));
+		this.setDescricao(JOptionPane.showInputDialog("descrição"));
+		this.setPreco(Double.parseDouble(JOptionPane.showInputDialog("valor")));
+		NumberFormat formato = new DecimalFormat("R$ ###,00");
+		JOptionPane.showMessageDialog(null, "Código do livro: " + getCodigo()+ "\nDescrição: " + getDescricao()+ "\nPreço: " +formato.format(getPreco()));
+	}
+}
